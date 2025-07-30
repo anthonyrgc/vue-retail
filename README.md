@@ -1,35 +1,33 @@
-# .
+# Prueba técnica de vue3
 
-This template should help get you started developing with Vue 3 in Vite.
+Este proyecto es una aplicación web creada con **Vue 3** y **Vite** que muestra una lista de productos con filtros por categoría y rango de precio. Incluye paginación, animaciones, guardado de preferencias en localStorage y estadísticas básicas.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Características principales
 
-## Customize configuration
+- Listado de productos obtenidos desde una API externa.
+- Filtros dinámicos por categoría y rango de precio.
+- Guardado y carga de preferencias de filtros usando `localStorage`.
+- Paginación con navegación entre páginas.
+- Animaciones suaves al cambiar filtros o páginas.
+- Visualización de estadísticas como total de productos, categorías únicas y precio promedio.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## Requisitos previos
+
+- Node.js (versión 14 o superior recomendada)
+- npm (viene con Node.js)
+
+---
+
+## Instalación
+
+1. Clona este repositorio o descarga el código.
+2. Abre una terminal en la carpeta raíz del proyecto.
+3. Ejecuta para instalar dependencias:
 
 ```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
