@@ -72,3 +72,26 @@ El proyecto sigue una estructura modular para facilitar el mantenimiento y escal
 - `src/components` — Componentes Vue reutilizables (ProductCard, ProductPagination, ProductStatistics)
 - `src/App.vue` — Componente principal con lógica de filtros, paginación y animaciones
 - `public/` — Archivos estáticos
+
+## Decisiones técnicas relevantes
+
+- **Uso de Vue 3 con Composition API:**  
+  Se eligió Vue 3 y su Composition API para aprovechar una mejor organización del código y una mayor flexibilidad en la gestión del estado y la lógica reactiva.
+
+- **Vite como herramienta de build:**  
+  Se usó Vite para un desarrollo rápido con hot-reload eficiente y una configuración sencilla.
+
+- **LocalStorage para persistencia de filtros:**  
+  Para mejorar la experiencia del usuario, las preferencias de búsqueda se guardan en localStorage, permitiendo que los filtros persistan entre sesiones.
+
+- **Animaciones con `<Transition>` y `<TransitionGroup>` de Vue:**  
+  Se implementaron animaciones de entrada/salida para mejorar la experiencia visual al cambiar páginas o filtros, usando clases CSS personalizadas para desvanecimiento y desplazamiento.
+
+- **Separación en componentes reutilizables:**  
+  Componentes como ProductCard, ProductPagination y ProductStatistics permiten modularizar la aplicación, facilitando mantenimiento y escalabilidad.
+
+- **Uso de API pública para datos:**  
+  Se usaron endpoints públicos para productos y categorías, asegurando datos reales para la prueba y demostración.
+
+- **Tailwind CSS para estilos rápidos y responsivos:**  
+  El proyecto utiliza Tailwind para facilitar el diseño responsive y acelerar el desarrollo con utilidades CSS predefinidas.
